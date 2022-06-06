@@ -63,3 +63,4 @@ Shader "Custom/ClipingShader"
     }
     FallBack "Standard"
 }
+
