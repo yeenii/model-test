@@ -5,7 +5,9 @@ Shader "Custom/Mask"
 		Tags{"Queue" = "Transparent+1"}
 
 		Pass{
+		//Blend SrcAlpha OneMinusSrcAlpha
 		Blend Zero One
-	     }
+		 }
+
 	}
 }
